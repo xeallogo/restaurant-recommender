@@ -241,8 +241,10 @@ def show_reviews_businesses(value):
             }})])
 
 
-
-
+@app.server.route('/')
+def dashboard():
+    return app.index()
+    
 # ------------------------------------------------------------------------------
 if __name__ == '__main__':
     app.run_server(debug=True)
