@@ -1,6 +1,3 @@
-# Juppyter notebooks that are not needed for deployment. 
-model-training.ipynb
-data_processing.ipynb
 
 .DS_Store
 
